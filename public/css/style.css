@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    font-size: 2rem;
+    color: #fe424d;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.container {
+    flex: 1;
+}
+
+/* footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info {
+    text-align: center;
+    height: 7rem;
+    background-color: rgba(196, 193, 193, 0.3);
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+.f-info-socials,
+.f-info-brand,
+.f-info-links {
+    margin-top: 0.8rem;
+}
+
+/* card */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-list {
+    text-decoration: none;
+}
+
+/* card-effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page */
+.btn {
+    border: none !important;
+}
+
+/* show page */
+.show-img {
+    height: 50vh;
+}
+
+h3 {
+    text-decoration: underline blue;
+}
+
+/* map */
+#map {
+    height: 300px;
+    width: 100%;
+}
+
+.user-sign {
+    display: flex;
+    flex-wrap: wrap;
+
+}
